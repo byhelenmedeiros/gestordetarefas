@@ -1,0 +1,100 @@
+/* Home.css */
+
+body{
+    background-color: #faebd7;
+}
+
+
+/* Estilos gerais da página */
+.home-main {
+    font-family: 'Roboto', sans-serif;
+    
+
+  }
+  body {
+	background: linear-gradient(-45deg, #faebd7, #d1b6d1, #ffdba5);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+ 
+  
+  .container-home{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .container-left {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  
+  .container-right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .display-home {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #524931;
+    font-weight: bold;
+  }
+
+  /* Estilos gerais dos botões */
+  .btn-login,
+  .btn-register {
+    font-family: 'Lucida Sans';
+    text-transform: uppercase;
+    background-color: var(--btn-destaque);
+    padding: var(--espacamento-padrao);
+    text-decoration: none;
+    margin-right: 1em;
+    border-radius: var(--border-radius);
+    font-size: 1.2em;
+    color: #fff;
+    transition: all 0.8s;
+    font-weight: bold
+}
+
+  /* Estilos específicos para o botão de login */
+  .btn-login {
+    background-color: transparent;
+    border: 2px solid var(--btn-destaque);
+    color: var(--btn-destaque);
+    
+  }
+  
+  .btn-login:hover {
+    transform: translateY(-2px);
+    color: #fff;
+    border: 2px solid var(--btn-semdestaque);
+    background-color: var(--btn-semdestaque);
+  }
+  
+  .btn-register:hover {
+    background-color: var(--btn-semdestaque);
+    border: 2px solid var(--btn-semdestaque);
+  }
+  
+  .container-right img {
+    max-width: 95%;
+  }

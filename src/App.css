@@ -1,0 +1,18 @@
+:root {
+  --btn-destaque: #D07EDB; /* Cor de destaque para botões primários */
+  --btn-semdestaque: #F5559A; /* Cor para botões de ação de deleção */
+  --espacamento-padrao: .5em 1.8em; /* Espaçamento padrão para botões */
+  --border-radius: 1.8em; /* Raio do canto arredondado padrão para botões */
+  --title-color: #433152; /* Cor do título */
+  --font-family: 'Lucida Sans'; /* Fonte padrão */
+  --text-uppercase: uppercase; /* Texto em maiúsculas */
+  --button-font-size: 1.2em; /* Tamanho da fonte para botões */
+  --button-color: #fff; /* Cor do texto nos botões */
+  --button-transition: all 0.8s; /* Transição para animação nos botões */
+  --button-font-weight: bold; /* Peso da fonte para botões */
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}

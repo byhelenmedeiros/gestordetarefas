@@ -1,0 +1,93 @@
+.acesso{
+    margin-top: 2em;
+    text-transform: inherit;
+    background-color: var(--btn-destaque);
+    color: #fff;
+    margin-right: inherit;
+
+}
+.btn-voltar{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 95vh;
+    align-content: center;
+    
+}
+.loginpage{
+    border: 2px solid;
+    margin-top: 3em;
+}
+
+.container-register h6{
+    font-size: 1.5em;
+}
+.container-register h1, .login-title{
+    margin-bottom: 0.5em;
+    font-family: verdana;
+    font-weight: bold;
+    color: var(--title-color);
+}
+.container-register p{
+    font-size: 1.2em;
+}
+  .container-login {
+     display: flex;  
+     justify-content: space-around;
+     background-color: #fdfdfd;
+     flex-direction: column;
+     padding: 20px; 
+     width: 400px;
+     border-radius: 20px 0 0 20px;
+     padding: 10% 5%;
+     box-shadow: -16px 6px 15px -3px rgba(0,0,0,0.1);   
+     
+     
+  }
+
+  .container-register {
+    display: flex;
+    background-color: var(--btn-destaque);
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0 20px 20px 0;
+    padding: 10% 5%;
+    box-shadow: 16px 6px 15px -3px rgba(0,0,0,0.1);
+    width: 500px;
+
+    
+}
+
+@media (max-width: 984px) {
+    .container-login {
+        border-radius: 20px 20px 0 0;
+        padding: 10% 5%;
+        
+   
+}
+
+     .container-register {
+        border-radius: 0 0  20px 20px;
+        width: 400px;    
+}
+    }
+
+.invalid-feedback{
+    margin: 20px 0;
+} 
+.form-control input{
+    background-color: #f7f7f7;
+    font-size: 1.5em;
+}   
+.form-control label{
+    text-align: left;
+}   

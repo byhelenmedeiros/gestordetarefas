@@ -1,0 +1,184 @@
+/* Estilos para o componente Dashboard */
+.dashboard__item{
+    list-style: none;
+}
+
+.dashboard {
+   
+}
+
+.dashboard__title, .dashboard__tasks{
+    font-size: 2em;
+    text-align: left;
+    font-family: verdana;
+    font-weight: bold;
+}
+.dashboard__tasks{
+    font-size: 0.9em;
+    text-align: left;
+    font-weight: inherit;
+    margin: 1em 0;
+}
+  
+  .dashboard__section {
+    /* Adicione estilos para a seção do Dashboard aqui */
+  }
+  
+  .dashboard__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    justify-items: flex-start;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px ;
+    display: flex;  
+    padding:  1em 0em 0 1em;
+    margin-bottom: 2em;
+}
+    
+  .dashboard__list {
+    /* Adicione estilos para a lista de tarefas do Dashboard aqui */
+  }
+  
+  .dashboard__item {
+    /* Adicione estilos para cada item de tarefa aqui */
+  }
+  
+  .dashboard__edit-form {
+    /* Adicione estilos para o formulário de edição de tarefa aqui */
+  }
+  
+  .dashboard__input, .dashboard__input[type="checkbox"] {
+    border-radius: 10px;
+    border: none;
+    background-color: #f5f5f5;
+    font-size: 1em;
+    padding: 10px;
+  }
+  
+
+  
+  .dashboard__button-task, .dashboard__button-sair, .dashboard__button-perfil, .dashboard__button-primary,   .dashboard__button-danger   {
+    background-color: var(--btn-destaque);
+    border: none;
+    padding: var(--espacamento-padrao);
+    border-radius: var(--border-radius);
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 1px 1px 0 #000;
+  }
+  .dashboard__button-perfil{
+    float: left;
+    margin-bottom: 1em;
+  }
+  .dashboard__button-sair{
+    background-color: #afafaf;
+    display: inline;
+    float: right; 
+    margin-right: 2em;
+  }
+
+  .dashboard__button-task{
+    margin: 2em;
+  }
+  .dashboard__button-buttons{
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: space-evenly;
+  }
+
+  .dashboard__button-primary {
+    background-color: #61c476;
+  }
+  
+  .dashboard__button-danger {
+      background-color: #da7777;
+  }
+  
+  .dashboard__form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+ /* area das tasks*/
+
+ .dashboard__form-group {
+  display: flex; 
+  align-items: center; 
+  margin: 1em; 
+  flex-direction: column;
+}
+
+.dashboard__label {
+  flex: 2; 
+}
+
+  
+  .dashboard__card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Espaçamento entre os cartões */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  .dashboard__card {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    min-width: 250px; 
+    max-width: 300px; 
+  }
+  
+  .dashboard__card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .dashboard__card-title {
+    font-size: 1.3rem;
+    font-family: verdana;
+    font-weight: bold;
+    margin: 0;
+    color: var(--btn-semdestaque);
+  }
+
+  .dashboard__card-details h6{
+    font-family: verdana;
+
+  }
+  .dashboard__card-title:hover {
+    color: var(--btn-destaque);
+  }
+  
+  .dashboard__card-details p {
+    margin: 0;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+
+
+  /* Estilos para .dashboard__form em dispositivos médios (tablets) */
+@media (max-width: 768px) {
+  .dashboard__form {
+    display: block; 
+  }
+}
+
+/* Estilos para .dashboard__form em dispositivos móveis */
+@media (max-width: 576px) {
+  .dashboard__form {
+    display: block; 
+  }
+}
